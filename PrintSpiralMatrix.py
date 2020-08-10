@@ -24,6 +24,7 @@ def SpiralMatrix(A):
             for i in range(n-1, l-1,-1):
                 print(A[m-1][i],end=' ')
             m -=1
+        #Print the st Column of the Remaining Columns
         if ( l < n ):
             for i in range(m-1,k-1,-1):
                 print(A[i][l],end=' ')
