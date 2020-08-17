@@ -27,9 +27,6 @@ def SpiralMatrix(A):
             for i in range(m - 1, k - 1, -1):
                 print(A[i][l], end=' ')
             l += 1
-
-
 if __name__ == "__main__":
     B = ([1, 2, 3], [4, 5, 6], [7, 8, 9])
     SpiralMatrix(B)
-    #print(B)
