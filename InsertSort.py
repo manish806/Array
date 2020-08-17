@@ -34,3 +34,10 @@ if __name__== "__main__":
     print ("Sorted array is :",end=' ')
     for i in range(len(arr)):
         print (arr[i], end=' ')
+      
+ '''
+ Time Complexity
+ Worst Case Time Complexity [ Big-O ]: O(n2)
+Best Case Time Complexity [Big-omega]: O(n)
+Average Time Complexity [Big-theta]: O(n2)
+ '''
